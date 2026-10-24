@@ -1,0 +1,18 @@
+{
+  "name": "assignment-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Online Assignment Submission & Evaluation Portal - serverless AWS mini project",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint && node scripts/lint-backend.js",
+    "test": "npm --prefix backend test && npm --prefix frontend test",
+    "test:backend": "npm --prefix backend test",
+    "test:frontend": "npm --prefix frontend test"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

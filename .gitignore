@@ -1,0 +1,35 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+aws-exports.js
+.aws-sam/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/dist/
+.aws-sam/build/
+samconfig.toml
+
+# Logs & caches
+*.log
+npm-debug.log*
+.vite/
+coverage/
+.eslintcache
+__pycache__/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
